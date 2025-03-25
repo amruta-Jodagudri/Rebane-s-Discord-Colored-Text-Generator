@@ -1,17 +1,12 @@
 "use client"
 
-import { Paper, useMantineTheme } from "@mantine/core"
+import { Paper } from "@mantine/core"
 
 interface DiscordPreviewProps {
   text: string
 }
 
 export function DiscordPreview({ text }: DiscordPreviewProps) {
-  const theme = useMantineTheme()
-
-  // This is a simplified preview - in a real app, you'd need to parse ANSI codes
-  // and convert them to CSS styles for an accurate preview
-
   return (
     <Paper
       withBorder

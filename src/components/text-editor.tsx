@@ -77,7 +77,7 @@ const BG_CSS_COLORS = [
 ]
 
 export function TextEditor() {
-  const [rawText, setRawText] = useState("Welcome to Rebane's Discord Colored Text Generator!")
+  const [rawText, setRawText] = useState(`Welcome to Rebane's Discord Colored Text Generator!`)
   const [formattedText, setFormattedText] = useState("")
   const [copied, setCopied] = useState(false)
   const [previewHtml, setPreviewHtml] = useState<string>("")

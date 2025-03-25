@@ -19,13 +19,13 @@ export function UsageGuide() {
           <Text>Click on a foreground (FG) or background (BG) color to apply it</Text>
         </List.Item>
         <List.Item>
-          <Text>Use Bold and Line buttons to add formatting</Text>
+          <Text>Use <strong>Bold</strong> and <em>Line</em> buttons to add formatting</Text>
         </List.Item>
         <List.Item>
           <Text>Check the preview to see how it will look</Text>
         </List.Item>
         <List.Item>
-          <Text>Click "Copy text as Discord formatted" when you're done</Text>
+          <Text>{`Click <em>"Copy text as Discord formatted"</em> when you're done`}</Text>
         </List.Item>
         <List.Item>
           <Text>Paste the copied text into Discord</Text>
@@ -34,4 +34,3 @@ export function UsageGuide() {
     </Box>
   )
 }
-
